@@ -7,10 +7,10 @@ import numpy as np
 
 # Conexión a la base de datos MySQL
 conn = pymysql.connect(
-    host=input("Introduce el host de la base de datos (ejemplo: 'localhost'): "),
-    user=input("Introduce tu usuario de MySQL: "),
-    password=input("Introduce tu contraseña de MySQL: "),
-    database=input("Introduce el nombre de la base de datos: ")
+    host="TU_HOST_AQUI",
+    user="TU_USUARIO_AQUI", 
+    password="TU_CONTRASEÑA_AQUI",
+    database="TU_BASE_DE_DATOS_AQUI" 
 )
 
 cursor = conn.cursor()
