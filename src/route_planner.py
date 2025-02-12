@@ -4,7 +4,7 @@ import mysql.connector
 from math import radians, sin, cos, sqrt, atan2
 
 # Configuración inicial
-API_KEY = "35ba8f2c-ecde-4176-bd17-203259ebebef"
+API_KEY = "TU_API_KEY_AQUI"
 API_URL_OPTIMIZATION = "https://graphhopper.com/api/1/vrp"
 API_URL_ROUTE = "https://graphhopper.com/api/1/route"
 
@@ -12,10 +12,10 @@ warehouse_location = {"lat": 27.96683841473653, "lng": -15.392203774815524}
 
 # Configuración de la base de datos
 DB_CONFIG = {
-    "host": "localhost",
-    "user": "root",
-    "password": "root",
-    "database": "copia2"
+    "host": "TU_HOST_AQUI",
+    "user": "TU_USUARIO_AQUI",
+    "password": "TU_CONTRASEÑA_AQUI",
+    "database": "TU_BASE_DE_DATOS_AQUI",
 }
 
 # Función para calcular la distancia entre dos puntos
